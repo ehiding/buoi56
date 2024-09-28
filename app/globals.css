@@ -35,6 +35,103 @@ a {
   text-decoration: none;
 }
 
+.Home {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.Home h1 {
+  margin-bottom: 20px;
+}
+
+.header {
+  background: green;
+  padding: 20px;
+}
+
+.header-section {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.header-section .header-logo h1 {
+  cursor: pointer;
+}
+
+.header-section .header-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-section .header-container p {
+  cursor: pointer;
+}
+
+.header-section .header-container .header-icon {
+  margin-left: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 1200px;
+  margin: 0 auto;
+  /* display: block; */
+  line-height: 20px;
+}
+
+.container .list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 70px;
+}
+
+.container .list .price .old {
+  margin-right: 20px;
+  text-decoration: line-through;
+}
+
+.container .list .addCard {
+  font-size: 22px;
+  float: right;
+  cursor: pointer;
+}
+.container-detail {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.item-detail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-detail .list-detail .item-detail .content-detail {
+  line-height: 70px;
+  margin-left: 150px;
+}
+
+.container-detail .list-detail .item-detail .content-detail .old-detail {
+  margin-right: 40px;
+  text-decoration: line-through;
+}
+
+.container-detail .list-detail .item-detail .content-detail button {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.container-detail .list-detail .item-detail .content-detail .addCard-detail {
+  margin-right: 30px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
